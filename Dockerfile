@@ -28,4 +28,5 @@ COPY . .
 EXPOSE 8501
 
 # Run the app 
-CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
+CMD ["streamlit", "run", "streamlip_app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
+
